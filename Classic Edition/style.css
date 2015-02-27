@@ -1,0 +1,344 @@
+/*
+
+EASYDESK GENERAL CSS / BY RAFAEL MARDOJAI C.M.
+
+*/
+
+/*//////////////////////////////
+/////// RESET HTML5
+//////////////////////////////*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    border: none;
+    vertical-align:middle;
+}
+
+/*//////////////////////////////
+/////// BACIC STYLES
+//////////////////////////////*/
+
+body {
+    font-family: 'Carme', sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none; color: #FFF;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*//////////////////////////////
+/////// EASYDESK
+//////////////////////////////*/
+
+#easydesk {
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+/*//////////////////////////////
+/////// HEADER
+//////////////////////////////*/
+
+#header {
+    background: rgba(0, 0, 0, 0.4);    
+    color: #FFF;
+    height: 50px;
+}
+
+#header p {
+    border-radius: 100%;
+    float: left;
+    margin: 10px 0px 0px 20px;
+}
+
+#header #date {
+    display: inline-block;
+    float: left;
+    margin: 5px 0px 0px 100px;
+    width: 300px;
+}
+
+#header #clock {
+    margin: 5px 100px 0px 0px;
+    float: right;
+    width: 100px;
+}
+
+/*//////////////////////////////
+/////// SEARCH
+//////////////////////////////*/
+
+#search-box {
+    margin: 120px auto 5px auto;
+    width: 480px;
+    transition: all 1s ease;
+}
+
+/* Search Tabs */
+
+#tabs {    
+    list-style: none;    
+    margin: 0;
+    overflow: hidden;
+    padding: 0;    
+    width: 100%;
+}
+
+#tabs li {
+    float: left;
+    margin: 0 .2em 0 0;
+}
+
+#tabs a {         
+    float: left;
+    height: 40px;
+    padding: 0px 3px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    width: 40px !important;
+}
+
+#tabs a:focus {
+    outline: 0;    
+}
+
+#tabs a::after {    
+    content:'';
+    position:absolute;
+    width: 1em;        
+}
+
+/* Search Tabs Content */
+
+#tabs-content {
+    background: rgba(0, 0, 0, 0.4);
+    height: 110px;
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Search Form */
+
+.search-form {    
+    border: solid 3px #FFF;
+    color: #FFF;
+    display: inline-block;
+    padding: 0;
+    z-index: 9999;
+}
+
+.search-input {
+    background:url(images/icons/search/reset.svg) no-repeat right -40px center;
+    color: #FFF;
+    font-size: 18px;
+    height: 55px;
+    padding: 0 0 0 10px;
+    width: 320px;
+}
+
+.search-input.x{
+    background-position: right -10px center;
+}
+
+.search-input.onX{
+    cursor: pointer;
+}
+
+.search-button {
+    background: url(images/icons/search/search.svg);
+    background-size: cover;    
+    cursor: pointer;      
+    height: 60px;    
+    width: 60px;
+}
+
+/*//////////////////////////////
+/////// ACCESS LIKNS
+//////////////////////////////*/
+
+
+#links {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+
+#links-toggle {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block; 
+    font-size: 20px;
+    padding: 15px 00px;
+    text-align: center;
+    width: 100%;    
+}
+
+/* Icons box */
+
+#links-icons {
+    display: none;
+    height: 180px;
+    margin: 20px auto;
+    width: 800px;
+}
+
+/* Links Icons Category */
+
+#social,
+#mail,
+#portals {
+    float: left;
+}
+
+#webs {
+    widows: 100%;
+    text-align: center;
+}
+
+/*//////////////////////////////
+/////// EFECTS
+//////////////////////////////*/
+
+/*/////// Transitions */
+
+/* 0.5s - linear */
+#tabs a 
+#tabs a::after,
+#tabs #current a,
+#tabs #current a::after,
+.search-button {
+    transition: all 0.5s linear;
+}
+
+.search-input {
+    transition: background 0.2s linear;
+}
+
+/* 0.5s - ease */
+#tabs a:hover,
+#tabs a:hover::after,
+#tabs a:focus,
+#tabs a:focus::after {
+    transition: all 0.5s ease;
+}
+
+/* 1s - ease */
+#header {
+    transition: all 1s ease;
+}
+
+
+/*/////// Others */
+
+.blur {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.tooltip {
+	display: none;
+	position: absolute;	
+	background-color: rgba(0,0,0,.8);	;
+	padding:10px;
+	color: #FFF;
+    z-index: 999999;
+}

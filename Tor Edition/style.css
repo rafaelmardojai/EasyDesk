@@ -254,6 +254,10 @@ a:hover {
 /////// ACCESS LIKNS
 //////////////////////////////*/
 
+#tor-ad {
+    color: #FFF;
+    text-align: center;
+}
 
 #links {
     background: rgba(0, 0, 0, 0.5);
@@ -278,7 +282,7 @@ a:hover {
     display: none;
     height: 180px;
     margin: 20px auto;
-    width: 801px;
+    width: 800px;
 }
 
 /* Links Icons Category */
@@ -287,10 +291,6 @@ a:hover {
 #mail,
 #portals {
     float: left;
-}
-
-#mail{
-    border-right: 1px solid #FFF;
 }
 
 #webs {
