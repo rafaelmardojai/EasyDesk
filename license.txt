@@ -1,0 +1,48 @@
+////////////////
+SOURCE CODE:
+\\\\\\\\\\\\\\\\
+
+THE SOURCE CODE OF 'EASYDESK' IS UNDER A CREATIVE COMMONS LICENSE: BY-NC-SA (Attribution-NonCommercial-ShareAlike)
+
+ATTRIBUTION: 'Rafael Mardojai C.M. / MWS'
+WEB: www:rafael:mardojai.com / www.mardojai.com
+
+LICENSE DEED: http://creativecommons.org/licenses/by-nc-sa/4.0/
+LEGAL CODE: http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+__________________________________________________________
+
+////////////////
+MEDIA SOURCES:
+\\\\\\\\\\\\\\\\
+
+THE MEDIA SOURCES OF THE PROJECT ARE UNDER A CREATIVE COMMONS LICENSE: BY-NC-ND (Attribution-NonCommercial-NoDerivs)
+
+LICENSE DEED: http://creativecommons.org/licenses/by-nc-nd/3.0/
+LEGAL CODE: http://creativecommons.org/licenses/by-nc-nc/3.0/legalcode
+
+ATTRIBUTIONS:
+
+-BACKGROUNDS:
+--1.jpg    :- User: mike50, on www.openwalls.com
+--2.jpg    :- Free Twitter Backgrounds / www.twittergallery.com
+--3.jpg    :- Desktop Nexus Wallpapers / www.desktopnexus.com
+--4.jpg    :- User: Blue Hermiony (bluelagoon) , on www.openwalls.com
+--5.jpg    :- User: mike50, on www.openwalls.com
+--6.jpg    :- Desktop Nexus Wallpapers / www.desktopnexus.com
+--7.jpg    :- User: Anonimous, on www.openwalls.com
+--8.jpg    :- User: Anonimous, on www.openwalls.com
+--9.jpg    :- Desktop Nexus Wallpapers / www.desktopnexus.com
+--10.jpg   :- Desktop Nexus Wallpapers / www.desktopnexus.com
+
+-ICONS:
+
+--google.svg  :- Freepik / www.freepik.com
+--duck.svg    :- UX Repo / www.uxrepo.com
+--wikipedia   :- SimpleIcon
+--youtube     :- SimpleIcon
+--map         :- Freepik / www.freepik.com
+--weather     :- Freepik / www.freepik.com
+--rae         :- Freepik / www.freepik.com
+
+
+
